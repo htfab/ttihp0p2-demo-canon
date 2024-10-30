@@ -15,6 +15,9 @@ jobs:
 
       - name: Build GDS
         uses: TinyTapeout/tt-gds-action/orfs@tt09
+        with:
+          tools-repo: htfab/tt-support-tools
+          tools-ref: tt09-no-lvs
 
   #precheck:
   #  needs: gds
